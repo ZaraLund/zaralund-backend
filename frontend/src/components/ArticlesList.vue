@@ -8,6 +8,7 @@
           class="uk-link-reset"
           :key="article.id"
         >
+          
           <div class="uk-card uk-card-muted">
             <div class="uk-card-media-top">
               <img :src="api_url + article.image.url" alt="" height="100" />
