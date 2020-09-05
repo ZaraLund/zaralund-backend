@@ -3,10 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+
+  
   "dependencies": {
     "apollo-cache-inmemory": "^1.6.6",
     "apollo-client": "^2.6.10",
@@ -14,10 +19,17 @@
     "apollo-link-http": "^1.5.17",
     "apollo-server-koa": "^2.15.1",
     "core-js": "^3.6.5",
-    "graphql": "^15.2.0",
+    "graphql": "^14.0.0",
+    "graphql-subscriptions": "^1.1.0",
     "graphql-tag": "^2.10.3",
+    "moment": "^2.27.0",
+    "sass": "^1.26.10",
+    "sass-loader": "^9.0.2",
     "vue": "^2.6.11",
-    "vue-apollo": "^3.0.3"
+    "vue-apollo": "^3.0.3",
+    "vue-markdown-it": "^0.9.4",
+    "vue-router": "^3.3.4",
+    "webpack": "^4.36.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",

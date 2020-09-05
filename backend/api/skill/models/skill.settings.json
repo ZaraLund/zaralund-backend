@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "articles",
+  "collectionName": "skills",
   "info": {
-    "name": "article"
+    "name": "skill"
   },
   "options": {
     "increments": true,
@@ -13,8 +13,8 @@
       "type": "string",
       "required": true
     },
-    "content": {
-      "type": "richtext",
+    "description": {
+      "type": "text",
       "required": true
     },
     "image": {
@@ -27,14 +27,6 @@
       ],
       "plugin": "upload",
       "required": true
-    },
-    "published_at": {
-      "type": "date",
-      "required": true
-    },
-    "category": {
-      "model": "category",
-      "via": "articles"
     }
   }
 }

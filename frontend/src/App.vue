@@ -1,4 +1,9 @@
+<style lang="sass">
+@import './src/assets/css/Home.scss'
+</style>
+
 <template>
+
   <div id="app">
     <Nav />
     <router-view :key="$route.fullPath"></router-view>
@@ -28,10 +33,6 @@ a {
   text-decoration: none;
 }
 
-h1 {
-  font-family: Staatliches;
-  font-size: 120px;
-}
 
 #category {
   font-family: Staatliches;
