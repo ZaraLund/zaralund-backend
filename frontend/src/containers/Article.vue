@@ -10,7 +10,6 @@
     >
      
     </div>
-
     <div class="uk-section">
       <div class="uk-container uk-container-small">
         <vue-markdown-it

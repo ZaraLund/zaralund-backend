@@ -27,6 +27,20 @@
       ],
       "plugin": "upload",
       "required": true
+    },
+    "level": {
+      "type": "integer",
+      "required": true
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "required": true,
+      "default": "green"
     }
   }
 }
